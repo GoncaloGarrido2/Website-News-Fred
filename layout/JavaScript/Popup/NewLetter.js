@@ -1,0 +1,3 @@
+function OnClickNewletter() {
+    alert("Confirmado!");
+}

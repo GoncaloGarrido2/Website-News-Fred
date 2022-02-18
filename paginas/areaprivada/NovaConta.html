@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login</title>
+  <script src="../../layout/JavaScript/Verificação/NovaConta.js"></script>
+  <link rel="stylesheet" href="../../layout/styles/login.css" />
+  <link rel="stylesheet" href="../../layout/styles/layout.css" />
+  <style>
+    input {
+      width: 60%;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrapper col0">
+    <div id="topline">
+      <p>Tlm:+351 252 291 700 | E-mail: noticias@esmad.pt</p>
+      <ul>
+        <li class="last"><a href="login.html">Entrar</a></li>
+      </ul>
+      <br class="clear" />
+    </div>
+  </div>
+  <!-- ####################################################################################################### -->
+  <div class="wrapper">
+    <div id="header">
+      <div class="fl_left">
+        <h1><a href="../../index.html"><strong>N</strong>oticias <strong>E</strong>smad</a></h1>
+        <p>Noticias todo o dia</p>
+      </div>
+      <div class="fl_right"><a href="#"><img src="images/Nav10.png" alt="" /></a></div>
+      <br class="clear" />
+    </div>
+  </div>
+  <!-- ####################################################################################################### -->
+  <div class="wrapper col2">
+    <div id="topbar">
+      <div id="topnav">
+        <ul>
+          <li class="active"><a href="../../index.html">Inicio</a></li>
+          <li><a href="../../paginas/categorias/mapa.html">Mapa do Site</a></li>
+          <li><a href="#">Categorias</a>
+            <ul>
+              <li><a href="../../paginas/categorias/categoria-1.html">Nacional</a></li>
+              <li><a href="../../paginas/categorias/categoria-2.html">Economia</a></li>
+              <li><a href="../../paginas/categorias/categoria-3.html">Desporto</a></li>
+              <li><a href="../../paginas/categorias/categoria-4.html">Politica</a></li>
+            </ul>
+          </li>
+          <li class="last"><a href="../../paginas/contactos.html">Contactos</a></li>
+        </ul>
+      </div>
+      <br class="clear" />
+    </div>
+  </div>
+  <!-- ####################################################################################################### -->
+  <div class="wrapper">
+    <div id="breadcrumb">
+      <form id="subs">
+        <fieldset>
+          <table style="border-color: transparent ;background-color:rgba(0, 0, 0, 0);">
+            <tr>
+              <td style="text-align: right;"><label><b>Primeiro nome</b></label></td>
+              <td><input type="name" name="fname" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label><b>Último nome</b></label></td>
+              <td><input type="name" name="lname" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label><b>Email</b></label></td>
+              <td><input type="email" required></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label><b>Contacto</b></label></td>
+              <td><input type="tel"></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label><b>Password</b></label></td>
+              <td><input type="password" required id="password01"></td>
+            </tr>
+            <tr>
+              <td style="text-align: right;"><label><b>Repetir Password</b></label></td>
+              <td><input type="password" required id="password02"></td>
+            </tr>
+            <tr>
+              <td></td>
+              <td><input type="button" onclick="OnClickSubmeter()" value="Submeter"></td>
+            </tr>
+            <tr>
+              <td style="text-align: center;" colspan="2"><label id="resp" class="resposta"><b></b></label></td>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </div>
+  </div>
+</body>
+
+</html>

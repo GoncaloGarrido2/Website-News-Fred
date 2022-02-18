@@ -1,15 +1,15 @@
-input[type="submit"] {
+input[type="button"] {
     width: 29%;
     padding: 5px;
     margin-top: 10px;
-    background-color: #f39200;
+    background-color: #059BD8;
     border: none;
     color: white;
   }
   
   button {
     height: 30px;
-    background-color: #f39200;
+    background-color: #059BD8;
     border: none;
     color: white;
   }
